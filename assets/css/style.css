@@ -3,12 +3,12 @@ header{
 }
 nav {
 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
   
 }
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
     line-height: 34px;
     color: #3b2c44;
@@ -75,21 +75,25 @@ body {
   
   #logo {
     float: left;
+    margin-top: 15px;
     width: 250px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 90px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #af6584;
+    background: rgba(163, 93, 115, 0.100);
   }
   
   nav {
+    background: rgba(163, 93, 115, 0.75);
     float: center;
     margin-top: 25px;
+    padding: 5%
+    
   }
   
   nav a {
